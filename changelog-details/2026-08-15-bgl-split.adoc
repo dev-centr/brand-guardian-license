@@ -1,0 +1,3 @@
+= Split Brand Guardian License from DevCentr letter codes
+
+Published the Brand Guardian License 1.0 family as a project-agnostic steward repo so adopters copy readable titles instead of CSL `-B` / `-BC` / `-BCI` suffixes. The former CSL-1.0-B default is **Brand Guardian License 1.0 Standard** (never a bare `BGL-1.0`). Terms follow the CSL 1.0 tiers (same steward); documentation states GitHub’s license dropdown and SPDX will not list a non-OSI instrument until their published bars are met.

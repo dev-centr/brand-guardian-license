@@ -1,0 +1,30 @@
+= Mapping from Centr Source License letter codes
+
+Adopters of the Brand Guardian License can ignore this page. It exists so Dev-Centr maintainers can migrate without changing the bargain.
+
+The Centr Source License (CSL) 1.0 family lived in https://github.com/dev-centr/devcentr under `licenses/` with opaque suffixes (`-B`, `-BC`, `-BCI`). Those suffixes are *not* the names third parties should see. The Brand Guardian License 1.0 family is the same steward renaming those tiers into readable titles with DevCentr/Centr product vocabulary removed. The CSL `-B` default is named **Standard** here so it is never a bare `BGL-1.0`.
+
+[cols="2,2,3"]
+|===
+| CSL file / id | Brand Guardian name | File in this repo
+
+| CSL-1.0-B
+| Brand Guardian License 1.0 Standard
+| `Brand-Guardian-License-1.0-Standard.txt`
+
+| CSL-1.0-BC
+| Brand Guardian License 1.0 — No Competing Use
+| `Brand-Guardian-License-1.0-No-Competing-Use.txt`
+
+| CSL-1.0-BCI
+| Brand Guardian License 1.0 — No Competing Use, No Incorporation
+| `Brand-Guardian-License-1.0-No-Competing-Use-No-Incorporation.txt`
+
+| ANL-0.1
+| _(unchanged; not this family)_
+| Experimental agent/training terms stay in `devcentr`. Do not relabel as Brand Guardian.
+|===
+
+Short grep identifiers (`BGL-1.0-Standard`, `BGL-1.0-No-Competing-Use`, …) appear *inside* the texts. Do not present them as SPDX ids. Do not use a bare `BGL-1.0` or clipped suffixes such as `BGL-1.0-No-Compete`.
+
+CSL remains valid where already applied. New work should cite Brand Guardian names. Dual-labeling a distribution "CSL-1.0-B / Brand Guardian License 1.0 Standard" is optional during migration if the copied legal body is the Brand Guardian file.

@@ -1,0 +1,40 @@
+= Publishing the Brand Guardian License (GitHub, SPDX, choosealicense)
+
+Not legal advice. Goal: be honest about what "available on GitHub as a license" actually means.
+
+== Three different catalogs
+
+People often mean *GitHub's Create-repository license dropdown*. That menu is not "any LICENSE URL." It is https://choosealicense.com/, which feeds GitHub and https://github.com/licensee/licensee[Licensee].
+
+[cols="1,3"]
+|===
+| Catalog | What it takes
+
+| *Your project's LICENSE file*
+| Copy one complete Brand Guardian text. GitHub shows *Other*. Humans and clones still get the grant. This is the only channel that works on day one.
+
+| *SPDX License List*
+| Submit via https://github.com/spdx/license-list-XML/blob/main/DOCS/request-new-license.md[request-new-license]. https://github.com/spdx/license-list-XML/blob/main/DOCS/license-inclusion-principles.md[Inclusion principles]: stable identifiable text; steward will version instead of silently mutating; generally usable (not one-company-only — this rename exists so the instrument is project-agnostic); substantial use or a plan in significant projects. OSI-shaped licenses are preferred; non-OSI *can* be listed (CC-NC exists) but review is case-by-case. Do *not* put `SPDX-License-Identifier: BGL-1.0-Standard` in source until SPDX assigns an id.
+
+| *choosealicense.com* (GitHub dropdown)
+| SPDX id already; *and* OSI *or* FSF-free *or* Open Definition; *and* ≥1000 public repositories; *and* three notable LICENSE files Licensee could match. See https://github.com/github/choosealicense.com/blob/gh-pages/CONTRIBUTING.md[choosealicense CONTRIBUTING]. Brand Guardian License is source-available, not OSI. A PR will be rejected until those bars are real. Do not open one to "list it anyway."
+|===
+
+== What to do operationally
+
+. Push this steward repository. Keep the three full texts at the root so URLs are stable.
+. GitHub → Settings → General → enable *Template repository* if you want "Use this template."
+. In consuming repos, paste the chosen full text as `LICENSE`. Add the canonical URL in README.
+. DUB / npm / crates metadata: spell the readable name in `description` / `license` comments. For SPDX `license` fields, `LicenseRef-Brand-Guardian-License-1.0-Standard` (and sibling LicenseRefs) until SPDX accepts an identifier.
+. After several significant public uses, *then* open an SPDX request with: canonical URLs, list of projects, statement that 1.0 is frozen and 1.1 would be a new file.
+. Do not expect the GitHub *Add a license* picker. Point people at this repo instead.
+
+== Name collisions we already avoided
+
+* APL-1.0 is SPDX Adaptive Public License — do not call this family APL.
+* AGL reads as AGPL.
+* CPL is IBM Common Public License (SPDX `CPL-1.0`). Brand Guardian is *not* CPL. The DevCentr predecessor was *CSL* (Centr Source License), not CPL.
+
+== Org documentation hub
+
+These AsciiDoc pages are the project docs. If the Dev-Centr Antora hub later ingests a `brand-guardian-license` component, add it there; do not publish a second GitHub Pages Antora site for this repo.

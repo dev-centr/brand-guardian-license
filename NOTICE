@@ -1,0 +1,17 @@
+Brand Guardian License texts and documentation.
+
+Copyright (c) 2026 Dev-Centr contributors.
+
+You may copy any complete license text in this repository *verbatim* to
+license your own software. To change the legal terms, you must rename
+the instrument and remove the names "Brand Guardian License" and "BGL"
+(same idea as MPL 2.0 section 10.3). Do not call a modified bargain
+Brand Guardian License.
+
+Steward: https://github.com/dev-centr/brand-guardian-license
+
+This family is a rename of the Centr Source License (CSL) 1.0 tiers
+from https://github.com/dev-centr/devcentr (licenses/). Same steward;
+Centr / DevCentr product names were removed so other projects can
+adopt the instrument without pretending to be DevCentr. You do not
+need to know what CSL means to use these texts.

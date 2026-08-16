@@ -1,0 +1,38 @@
+= How to adopt the Brand Guardian License
+
+Not legal advice. Steward: https://github.com/dev-centr/brand-guardian-license
+
+== Pick a readable name, not a letter code
+
+Apply one of:
+
+* *Brand Guardian License 1.0 Standard* — default tier: branding reserved; store-clone / malware / ad-abuse banned; others may incorporate the software into their products.
+* *Brand Guardian License 1.0 — No Competing Use* — plus no substitute product or business without written permission.
+* *Brand Guardian License 1.0 — No Competing Use, No Incorporation* — strictest: no bundling this software into another product (ordinary plugins and OS/runtime images excepted).
+
+You do not need DevCentr, CSL, or any house abbreviation to use the text.
+
+== Steps
+
+. Copy the matching `.txt` from the repository root into your project as `LICENSE`. Copy the whole file. Do not excerpt "the important parts."
+. Optional first lines of `LICENSE` (comments above the title are fine if you keep the legal body intact)::
++
+----
+Canonical text: https://github.com/dev-centr/brand-guardian-license
+Applied as: Brand Guardian License 1.0 Standard
+----
+. In README and package metadata, write the *full name*. For SPDX fields until an official id exists, use a `LicenseRef-` locally, for example `LicenseRef-Brand-Guardian-License-1.0-Standard`. Do not invent `SPDX-License-Identifier: BGL-1.0-Standard`.
+. Spell out Branding in `NOTICE`, `brand/LICENSE`, or a COPYRIGHT paragraph: product name, logo files, domains.
+. If you previously used MPL/MIT/Apache on the *same files*, pick *one* copyright license. Do not stack this instrument on OSI Covered Software.
+
+== What GitHub will show
+
+GitHub's license detector knows a small catalog. A Brand Guardian `LICENSE` is detected as *Other*. That is correct until SPDX and choosealicense.com (which require OSI/FSF/OD status they will not give this family) list it.
+
+== Template repositories
+
+After this steward repo is pushed, enable *Template repository* in GitHub settings so other orgs can "Use this template" and start with the three texts.
+
+== PolyglotScan and similar projects
+
+https://github.com/PolyglotScan/polyglotscan[PolyglotScan] applies *Brand Guardian License 1.0 Standard* to its software. If *your* code must remain OSI (for example MPL 2.0), do not replace `LICENSE` with this instrument: cite this repo as sibling *policy* and keep store-clone rules on *marks* (`TRADEMARK.adoc`). Do not dual-license the same files as OSI plus BGL.

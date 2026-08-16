@@ -1,0 +1,22 @@
+# Allow-list
+*
+!*/
+
+!.gitignore
+!.gitattributes
+!LICENSE
+!NOTICE
+!README.md
+!CHANGELOG.adoc
+!Brand-Guardian-License-1.0-Standard.txt
+!Brand-Guardian-License-1.0-No-Competing-Use.txt
+!Brand-Guardian-License-1.0-No-Competing-Use-No-Incorporation.txt
+!docs/
+!docs/**
+!changelog-details/
+!changelog-details/**
+!.github/
+!.github/**
+
+MEMORIES.md
+**/MEMORIES.md

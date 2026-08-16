@@ -1,0 +1,15 @@
+= Changelog
+
+The format is based on https://keepachangelog.com/en/1.1.0/[Keep a Changelog].
+License texts use the version in the title (1.0). This file versions the *repository*.
+
+== Unreleased
+
+=== Added
+
+* Brand Guardian License 1.0 family with readable names (default tier: **Standard**), stewarded apart from DevCentr product repos.
+* How-to-adopt, GitHub/SPDX/choosealicense publishing notes, and CSL letter-code mapping for maintainers.
+
+=== Details
+
+* xref:changelog-details/2026-08-15-bgl-split.adoc[2026-08-15 — Split Brand Guardian License from DevCentr letter codes]

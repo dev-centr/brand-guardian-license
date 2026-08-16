@@ -1,0 +1,189 @@
+BRAND GUARDIAN LICENSE 1.0 — NO COMPETING USE, NO INCORPORATION
+===============================================================
+
+Full name: Brand Guardian License 1.0 — No Competing Use, No Incorporation
+Short identifier (not SPDX): BGL-1.0-No-Competing-Use-No-Incorporation
+Family: Brand Guardian License
+Canonical texts: https://github.com/dev-centr/brand-guardian-license
+
+Copyright (c) the copyright holders listed in the Software distribution.
+All rights reserved except as expressly granted below.
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+ * YOU MAY: Use, modify, and run the Software. Make and sell your own
+   software (but not by incorporating this Software into it). Fork and
+   contribute back. Distribute the Software or your modified version
+   under this license. Distribute the Software's binaries together with
+   a platform it runs on (for example an OS or runtime image). Build
+   plugins that run with the Software (without bundling the Software
+   into your plugin).
+
+ * YOU MAY NOT: Pretend your fork or product is the official project or
+   run a competing substitute business without permission. Bundle this
+   Software into your own product or ship it inside your app's installer
+   as a value-added tool. Use Branding without permission. Engage in
+   Prohibited Distribution.
+
+This is the strictest Brand Guardian License 1.0 tier (stricter than
+Standard): Branding reserved, Competing Use reserved, Incorporation not
+granted.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Software" means source code, documentation, configuration, and other
+materials in the distribution that adopts this license, except Branding.
+
+"Branding" means the project names, logos, icons, splash screens, visual
+identity, and trade dress designated in the COPYRIGHT NOTICE or LICENSE
+header of the Software distribution (and any confusingly similar marks).
+Branding is NOT licensed under this document.
+
+"Competing Use" means using the Software or any derivative (including
+forks) to operate, offer, market, or promote a product, service, or
+business that competes with or substitutes for the official project
+designated in the Software's COPYRIGHT NOTICE—for example, offering your
+own company under the same product name, a near-identical fork as a
+product or service, or a paid alternative that replaces the official
+project. Competing Use requires prior written permission from the
+copyright holder.
+
+"Incorporation" means distributing, bundling, embedding, or otherwise
+including the Software (or a derivative) as part of your own product or
+software, so that your product ships with or is built on the Software as
+a component—for example, shipping the Software inside another
+application's installer on the same platform as a value-added or bundled
+side-tool. Incorporation does not include: (a) distributing binaries of
+the Software together with a platform the Software runs on (OS, runtime,
+or distribution image); or (b) developing or distributing a plugin,
+extension, or add-on designed to work with the Software in the ordinary
+way (the user runs the Software separately; your plugin runs with or
+within it; you do not distribute the Software as part of your plugin).
+Incorporation is not granted under this license.
+
+"Prohibited Distribution" means any distribution of the Software (or a
+derivative) that:
+
+ (a) is a frivolous or duplicate listing in an app store, marketplace, or
+     similar channel that adds no substantial value;
+
+ (b) is malicious (for example contains malware, steals data, or harms
+     users); or
+
+ (c) is cognitively or commercially abusive, including but not limited to
+     stuffing the product with ads, dark patterns, or monetization that
+     exploits users or the reputation of the project without adding
+     commensurate value.
+
+================================================================================
+2. GRANT OF RIGHTS
+================================================================================
+
+Subject to this license, you are granted a worldwide, non-exclusive,
+royalty-free, source-available license to:
+
+ * use the Software for any purpose, including commercial use, subject to
+   no Incorporation, no Competing Use, and Branding rules; plugins that
+   work with the Software may use it in the ordinary way;
+ * modify the Software;
+ * distribute source and binaries of the Software or your modifications,
+   provided you do not engage in Incorporation, Competing Use, or
+   Prohibited Distribution, and you comply with Branding restrictions.
+
+This license does not grant Incorporation or Competing Use. You must
+retain this license and copyright notices. Modified distributions must
+be under Brand Guardian License 1.0 — No Competing Use, No Incorporation
+(or a later version of that tier designated by the copyright holder),
+with clear indication of changes. The copyright holder may grant written
+exceptions or commercial licenses.
+
+================================================================================
+3. RESERVED RIGHTS: NO INCORPORATION; NO COMPETING USE; BRANDING
+================================================================================
+
+3.1 No Incorporation. No right is granted to incorporate the Software
+into your own product. You may not bundle it as a value-added side-tool
+inside another application's installer on the same platform. Exceptions:
+(a) platform/OS image distribution; (b) ordinary plugins that do not
+ship the Software. Incorporation requires prior written permission.
+
+3.2 No Competing Use. No right is granted to engage in Competing Use
+without prior written permission from the copyright holder.
+
+3.3 Branding. No right is granted to use Branding without separate
+written permission. Forks must not present themselves as the official
+project.
+
+================================================================================
+4. PROHIBITED CONDUCT AND REMEDIES
+================================================================================
+
+4.1 You may not (a) create, publish, or maintain any Prohibited
+Distribution, (b) engage in Incorporation, or (c) engage in Competing
+Use. Doing so is a material breach and violation of the copyright
+holder's rights.
+
+4.2 Consequences of breach:
+
+ (a) All rights under this license terminate automatically, worldwide,
+     as to you and any entity you control that engages in the breach
+     with your knowledge or participation.
+
+ (b) Where enforceable, liquidated damages of USD 50,000 per distinct
+     Prohibited Distribution, per distinct Incorporation, or per
+     distinct Competing Use, plus an additional USD 50,000 if a
+     Prohibited Distribution is malicious or cognitively abusive as
+     in Section 1(c).
+
+ (c) Injunctive relief without proof of monetary harm.
+
+ (d) Reasonable attorneys' fees and costs to the prevailing party in
+     enforcement actions.
+
+4.3 Remedies are cumulative and not exclusive.
+
+================================================================================
+5. DISCLAIMER OF WARRANTY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+6. LIMITATION OF LIABILITY
+================================================================================
+
+EXCEPT FOR BREACH OF SECTIONS 3 OR 4, IN NO EVENT SHALL THE COPYRIGHT
+HOLDERS OR AUTHORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+7. GENERAL
+================================================================================
+
+This license constitutes the entire agreement regarding the Software
+under Brand Guardian License 1.0 — No Competing Use, No Incorporation.
+If any provision is held unenforceable, the remaining provisions remain
+in effect. Failure to enforce any term does not waive that term. You may
+not assign your rights without the copyright holder's prior written
+consent. The copyright holder may publish updated versions; use after
+publication may constitute acceptance for new use or distribution under
+the terms you adopt.
+
+This tier is source-available and is not an OSI-approved Open Source
+license.
+
+For Branding permission, Incorporation grants, or clarification, contact
+the copyright holder through the canonical project repository.
